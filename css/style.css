@@ -12,13 +12,14 @@ img {
   width: 38px; }
 
 .left {
-  opacity: 0.5;
   position: absolute;
   top: 286px;
   left: 100px; }
 
+.low-opacity {
+  opacity: 0.5; }
+
 .right {
-  opacity: 0.5;
   position: absolute;
   top: 286px;
   left: 872px;
