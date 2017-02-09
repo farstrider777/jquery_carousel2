@@ -10,32 +10,8 @@ var index = 0;
 $(".left").click(moveSlideLeft);
 $(".right").click(moveSlideRight);
 
-/*
-function act() {
-  var element = document.createElement("img");
-  element.src = "http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg";
-  var op = 0.1; // initial opacity
-  element.style.opacity = op;
-  document.body.appendChild(element);
-  element.style.display = 'block';
-  var timer = setInterval(function() {
-    if (op >= 1) {
-      clearInterval(timer);
-    }
-    element.style.opacity = op;
-    element.style.filter = 'alpha(opacity=' + op * 100 + ")"; // IE 5+ Support
-    op += op * 0.1;
-  }, 50);
-}
-*/
-
-
-
-
 function moveSlideLeft(){
-  $("section").html(`<img class="fade" src="${carouselImages[index].image_url}"/>
-  <footer>"${carouselImages[index].title}" by <u>${carouselImages[index].photographer_id}</u>.</footer>`);
-  //$(".fade").removeClass("full-opacity").addClass("zero-opacity");
+  $("section").html(`<img class="fade" src="${carouselImages[index].image_url}"/>`);
   var opTest = 1;
   var timer = setInterval(function(){ $(".fade").css({ opacity: opTest }); opTest -= .1;
     console.log(opTest)
@@ -55,9 +31,7 @@ function moveSlideLeft(){
 }
 
 function moveSlideRight(){
-  $("section").html(`<img class="fade" src="${carouselImages[index].image_url}"/>
-  <footer>"${carouselImages[index].title}" by <u>${carouselImages[index].photographer_id}</u>.</footer>`);
-  //$(".fade").removeClass("full-opacity").addClass("zero-opacity");
+  $("section").html(`<img class="fade" src="${carouselImages[index].image_url}"/>`);
   var opTest = 1;
   var timer = setInterval(function(){ $(".fade").css({ opacity: opTest }); opTest -= .1;
     console.log(opTest)
