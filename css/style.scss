@@ -14,8 +14,14 @@ img{
   width: 38px;
 }
 
-.left {
+footer{
+  position: absolute;
+  top: 422px;
+  right: 8px;
+  color: #FFFFFF;
+}
 
+.left {
   position: absolute;
   top: 286px;
   left: 100px;
@@ -26,11 +32,10 @@ img{
 }
 
 .right {
-
   position: absolute;
   top: 286px;
   left: 872px;
-  // the following is from css tricks to flip my one arrow
+  // the following is from css tricks to flip my left arrow
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);

@@ -11,6 +11,12 @@ img {
   height: 76px;
   width: 38px; }
 
+footer {
+  position: absolute;
+  top: 422px;
+  right: 8px;
+  color: #FFFFFF; }
+
 .left {
   position: absolute;
   top: 286px;
