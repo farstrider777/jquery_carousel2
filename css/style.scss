@@ -21,10 +21,67 @@ footer{
   color: #FFFFFF;
 }
 
+.fade{
+  height: 450px;
+  width: 810px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+/*
+.fade2 {
+   opacity: 1;
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+   }
+
+   .fade2:hover {
+      opacity: 0.0;
+      }
+*/
+
+/*
+#cf2 img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.transparent {
+opacity:0;
+}
+#cf_onclick {
+cursor:pointer;
+}
+*/
+
+/*
+.full-opacity{
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  //transition-delay: 1s;
+  //transition-duration: 1s;
+  //transition-property: opacity;
+}
+*/
+
+/*
+.zero-opacity{
+  opacity: .1;
+  transition: opacity 1s ease-in-out;
+  //transition-delay: 1s;
+  //transition-duration: 1s;
+  //transition-property: opacity;
+}
+*/
+
 .left {
   position: absolute;
   top: 286px;
   left: 100px;
+  z-index: 2;
 }
 
 .low-opacity {
@@ -35,6 +92,7 @@ footer{
   position: absolute;
   top: 286px;
   left: 872px;
+  z-index: 2;
   // the following is from css tricks to flip my left arrow
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
